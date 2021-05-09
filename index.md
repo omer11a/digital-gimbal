@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## Digital Gimbal: End-to-end Deep Image Stabilization with Learnable Exposure Times
 
-You can use the [editor on GitHub](https://github.com/omer11a/digital-gimbal/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Authors: Omer Dahary, Matan Jacoby, Alex M. Bronstein (Technion)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Abstract
 
-### Markdown
+Mechanical image stabilization using actuated gimbals enables capturing long-exposure shots without suffering from blur due to camera motion. These devices, however, are often physically cumbersome and expensive, limiting their widespread use. In this work, we propose to digitally emulate a mechanically stabilized system from the input of a fast unstabilized camera. To exploit the trade-off between motion blur at long exposures and low SNR at short exposures, we train a CNN that estimates a sharp high-SNR image by aggregating a burst of noisy short-exposure frames, related by unknown motion. We further suggest learning the burst's exposure times in an end-to-end manner, thus balancing the noise and blur across the frames. We demonstrate this method's advantage over the traditional approach of deblurring a single image or denoising a fixed-exposure burst on both synthetic and real data.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Cite
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+@article{dahary2020digital,
+  title={Digital Gimbal: End-to-end Deep Image Stabilization with Learnable Exposure Times},
+  author={Dahary, Omer and Jacoby, Matan and Bronstein, Alex M},
+  journal={arXiv e-prints},
+  pages={arXiv--2012},
+  year={2020}
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Links
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/omer11a/digital-gimbal/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- [paper](https://arxiv.org/abs/2012.04515)
+- [code](https://github.com/omer11a/digital-gimbal)
