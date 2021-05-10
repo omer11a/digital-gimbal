@@ -1,0 +1,22 @@
+kornia==0.3.1
+natsort==7.0.1
+numpy==1.18.4
+nvidia-dali==0.21.0
+nvidia-ml-py3==7.352.0
+opencv-python==4.2.0.34
+Pillow==7.1.2
+pytorch3d==0.2.0
+scikit-build==0.11.1
+scikit-image==0.17.2
+scikit-learn==0.22.2.post1
+scipy==1.4.1
+sklearn==0.0
+tensorboard==2.2.1
+tensorboard-logger==0.1.0
+tensorboard-plugin-wit==1.6.0.post3
+tensorboardX==2.0
+torch==1.5.0
+torchfields==0.0.5
+torchfile==0.1.0
+torchnet @ git+https://github.com/pytorch/tnt.git@32ab2bcb3851adab079123f2e8584bb307e04fd5
+torchvision==0.6.0
